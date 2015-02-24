@@ -7,7 +7,7 @@
 //
 
 #import "DKSDController.h"
-#import <GCDrawKit/DKDrawKit.h>
+#import <DKDrawKit/DKDrawKit.h>
 
 @implementation DKSDController
 

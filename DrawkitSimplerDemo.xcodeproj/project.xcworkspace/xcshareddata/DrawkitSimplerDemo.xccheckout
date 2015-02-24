@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4E110329-A3FA-4AAE-B005-B566A144B5E6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DrawkitSimplerDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>06A41427331532AEBF53AE8EC0047E3464460AB0</key>
+		<string>https://github.com/DrawKit/legacy-DrawKit-mini-demo.git</string>
+		<key>96A096A631AD2581CC9601FC18C382DDA36AE6A2</key>
+		<string>https://github.com/drawkit/DrawKit</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DrawkitSimplerDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>06A41427331532AEBF53AE8EC0047E3464460AB0</key>
+		<string>../..</string>
+		<key>96A096A631AD2581CC9601FC18C382DDA36AE6A2</key>
+		<string>../..DrawKit/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DrawKit/legacy-DrawKit-mini-demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>06A41427331532AEBF53AE8EC0047E3464460AB0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>96A096A631AD2581CC9601FC18C382DDA36AE6A2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DrawKit</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>06A41427331532AEBF53AE8EC0047E3464460AB0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>legacy-DrawKit-mini-demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

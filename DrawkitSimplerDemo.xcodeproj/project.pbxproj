@@ -3,37 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		763F8DCA1A9C6135001D1803 /* DKDrawKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763F8DC51A9C6128001D1803 /* DKDrawKit.framework */; };
+		763F8DCB1A9C6141001D1803 /* DKDrawKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 763F8DC51A9C6128001D1803 /* DKDrawKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		BF86F0920E09E14300920EFF /* DKSDController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF86F0910E09E14300920EFF /* DKSDController.m */; };
-		BF86F1D40E0A0CEA00920EFF /* GCDrawKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF86EF580E09DB0E00920EFF /* GCDrawKit.framework */; };
-		BF86F1D70E0A0D4D00920EFF /* GCDrawKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF86F1950E0A08D000920EFF /* GCDrawKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BF19613D0F88E53100C759CB /* PBXContainerItemProxy */ = {
+		763F8DC41A9C6128001D1803 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BF86EF530E09DB0E00920EFF /* DrawKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BF2EE49B0F66011D00B8CFFD;
-			remoteInfo = DKUnitTests;
-		};
-		BF86EF570E09DB0E00920EFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF86EF530E09DB0E00920EFF /* DrawKit.xcodeproj */;
+			containerPortal = 763F8DBF1A9C6128001D1803 /* DrawKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9660E6100BEF442B00B6A38C;
 			remoteInfo = DrawKit;
 		};
-		BF86EF590E09DB3100920EFF /* PBXContainerItemProxy */ = {
+		763F8DC61A9C6128001D1803 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BF86EF530E09DB0E00920EFF /* DrawKit.xcodeproj */;
+			containerPortal = 763F8DBF1A9C6128001D1803 /* DrawKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF2EE49B0F66011D00B8CFFD;
+			remoteInfo = DKUnitTests;
+		};
+		763F8DC81A9C612F001D1803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763F8DBF1A9C6128001D1803 /* DrawKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = DrawKit;
@@ -47,7 +47,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BF86F1D70E0A0D4D00920EFF /* GCDrawKit.framework in CopyFiles */,
+				763F8DCB1A9C6141001D1803 /* DKDrawKit.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +62,9 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* GCDrawKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDrawKit_Prefix.pch; sourceTree = "<group>"; };
+		763F8DBF1A9C6128001D1803 /* DrawKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DrawKit.xcodeproj; path = DrawKit/framework/DrawKit.xcodeproj; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* DK Mini Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DK Mini Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF86EF530E09DB0E00920EFF /* DrawKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DrawKit.xcodeproj; path = ../DrawKit/Trunk/Source/DrawKit.xcodeproj; sourceTree = SOURCE_ROOT; };
 		BF86F0900E09E14300920EFF /* DKSDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSDController.h; sourceTree = "<group>"; };
 		BF86F0910E09E14300920EFF /* DKSDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSDController.m; sourceTree = "<group>"; };
 		BF86F1950E0A08D000920EFF /* GCDrawKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GCDrawKit.framework; path = ../DrawKit/Trunk/Source/build/Debug/GCDrawKit.framework; sourceTree = SOURCE_ROOT; };
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF86F1D40E0A0CEA00920EFF /* GCDrawKit.framework in Frameworks */,
+				763F8DCA1A9C6135001D1803 /* DKDrawKit.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,12 +122,12 @@
 		29B97314FDCFA39411CA2CEA /* DrawkitSimplerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BF86EF530E09DB0E00920EFF /* DrawKit.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				763F8DBF1A9C6128001D1803 /* DrawKit.xcodeproj */,
 			);
 			name = DrawkitSimplerDemo;
 			sourceTree = "<group>";
@@ -160,11 +160,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF86EF540E09DB0E00920EFF /* Products */ = {
+		763F8DC01A9C6128001D1803 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF86EF580E09DB0E00920EFF /* GCDrawKit.framework */,
-				BF19613E0F88E53100C759CB /* DKUnitTests.octest */,
+				763F8DC51A9C6128001D1803 /* DKDrawKit.framework */,
+				763F8DC71A9C6128001D1803 /* DKUnitTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,15 +176,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DK Mini Demo" */;
 			buildPhases = (
-				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				8D1107290486CEB800E47090 /* Resources */,
 				BF86F1940E0A08CD00920EFF /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BF86EF5A0E09DB3100920EFF /* PBXTargetDependency */,
+				763F8DC91A9C612F001D1803 /* PBXTargetDependency */,
 			);
 			name = "DK Mini Demo";
 			productInstallPath = "$(HOME)/Applications";
@@ -197,15 +197,22 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DrawkitSimplerDemo" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* DrawkitSimplerDemo */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = BF86EF540E09DB0E00920EFF /* Products */;
-					ProjectRef = BF86EF530E09DB0E00920EFF /* DrawKit.xcodeproj */;
+					ProductGroup = 763F8DC01A9C6128001D1803 /* Products */;
+					ProjectRef = 763F8DBF1A9C6128001D1803 /* DrawKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -216,18 +223,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		BF19613E0F88E53100C759CB /* DKUnitTests.octest */ = {
+		763F8DC51A9C6128001D1803 /* DKDrawKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DKDrawKit.framework;
+			remoteRef = 763F8DC41A9C6128001D1803 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		763F8DC71A9C6128001D1803 /* DKUnitTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = DKUnitTests.octest;
-			remoteRef = BF19613D0F88E53100C759CB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BF86EF580E09DB0E00920EFF /* GCDrawKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GCDrawKit.framework;
-			remoteRef = BF86EF570E09DB0E00920EFF /* PBXContainerItemProxy */;
+			remoteRef = 763F8DC61A9C6128001D1803 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -257,10 +264,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BF86EF5A0E09DB3100920EFF /* PBXTargetDependency */ = {
+		763F8DC91A9C612F001D1803 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DrawKit;
-			targetProxy = BF86EF590E09DB3100920EFF /* PBXContainerItemProxy */;
+			targetProxy = 763F8DC81A9C612F001D1803 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -287,40 +294,23 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../DrawKit/Trunk/Source/build/Debug\"";
-				GCC_DYNAMIC_NO_PIC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GCDrawKit_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "DK Mini Demo";
 				WRAPPER_EXTENSION = app;
-				ZERO_LINK = YES;
 			};
 			name = Debug;
 		};
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../DrawKit/Trunk/Source/build/Debug\"";
-				GCC_MODEL_TUNING = G5;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GCDrawKit_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "DK Mini Demo";
 				WRAPPER_EXTENSION = app;
 			};
@@ -329,40 +319,25 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = (
-					i386,
-					ppc,
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/DrawKit/framework/Build/$(CONFIGURATION)/",
 				);
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
-				FRAMEWORK_SEARCH_PATHS = "@executable_path/../Frameworks";
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "../../../DrawKit/Trunk/Source/build/Debug/GCDrawKit.framework/**";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				OBJROOT = "$(SYMROOT)";
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
-				SYMROOT = ../DrawKit/Trunk/Source/build;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/DrawKit/framework/Build/$(CONFIGURATION)/",
 				);
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
-				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)";
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				OBJROOT = "$(SYMROOT)";
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
-				SYMROOT = ../DrawKit/Trunk/Source/build;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
